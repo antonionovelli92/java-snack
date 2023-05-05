@@ -14,7 +14,9 @@ public class Snack8 {
         for (int i = 0; i < 10; i++) {
         	// 0 e 100
             numeri[i] = rand.nextInt(101); 
+            
             System.out.println(numeri[i]);
+            
             if (numeri[i] % 2 == 0) {
                 pari[countPari] = numeri[i];
                 countPari++;
